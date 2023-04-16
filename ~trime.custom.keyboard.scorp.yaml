@@ -1,0 +1,243 @@
+﻿"preset_keys/+":
+    en_paste: {label: ✏️, send: Control+v}
+    en_cut: {label: ✂️, send: Control+x}
+    en_copy: {label: 📋, send: Control+c}
+    en_undo: {label: ↶, send: Control+z}
+    en_select_all: {label: sel, send: Control+a}
+    en_BackSpace: {label: ⌫, repeatable: true, send: BackSpace}
+    en_Menu: {label: ⌨️, send: Menu}
+    en_Keyboard_symbols: {label: 1@#, send: Eisu_toggle, select: symbols}
+    en_Keyboard_number: {label: '123', send: Eisu_toggle, select: number}
+    en_CommitRawInput: {label: Raw, send: Control+Return}
+
+    en_Keyboard_mini: {label: mini, send: Eisu_toggle, select: mini}
+    en_Keyboard_letter: {label: letter, send: Eisu_toggle, select: default}
+    en_Keyboard_default: {label: Back, send: Eisu_toggle, select: .default}
+    en_Keyboard_switch: {label: switch, send: Eisu_toggle, select: .next}
+    en_liquid_keyboard_switch: { label: More, send: function, command: liquid_keyboard, option: "符号表" }
+    en_liquid_keyboard_exit: {label: Back, send: function, command: liquid_keyboard, option: "-1"}  #退出liquidkeyboard
+    en_liquid_keyboard_emoji: { label: 🙂, send: function, command: liquid_keyboard, option: "emoji" }
+
+"preset_keyboards/vietquick":
+    name: VQuick
+    author: "scorpjke <scorpjke@gmail.com>"
+    ascii_mode: 0
+    width: 10
+    height: 44
+    lock: true
+    keys:
+        - {click: '1', label: 'th', hint: 'ê', width: 20}
+        - {click: '3', label: 'nh', width: 20}
+        - {click: en_CommitRawInput, width: 20}
+        - {click: '9', label: 'ng', width: 20}
+        - {click: '0', label: '∅', width: 20,  long_click: Escape}
+  
+        - {click: 'q', hint: 'ơ'}
+        - {click: 'w', long_click: '-', label: 'ch'}
+        - {click: 'e', long_click: '+'}
+        - {click: 'r'}
+        - {click: 't', long_click: '|'}
+        - {click: 'y', long_click: '\'}
+        - {click: 'u', long_click: '['}
+        - {click: 'i', long_click: ']'}
+        - {click: 'o', long_click: '{'}
+        - {click: 'p', long_click: '}'}
+
+        - {width: 5}
+        - {click: 'a', long_click: en_select_all }
+        - {click: 's', hint: 'â'}
+        - {click: 'd', hint: 'oe'}
+        - {click: 'f', hint: 'uê', label: 'đ'}
+        - {click: 'g', hint: 'ư'}
+        - {click: 'h', hint: 'uy'}
+        - {click: 'j', hint: 'uyê', label: 'tr'}
+        - {click: 'k', hint: 'iê/ia', long_click: '('}
+        - {click: 'l', hint: 'uô/ua', long_click: ')'}
+        - {width: 5}
+  
+        - {click: 'Tab', width: 15, label: '⇧'}
+        - {click: 'z', hint: 'oa', label: "gi"}
+        - {click: 'x', hint: 'uâ', long_click: en_cut}
+        - {click: 'c', long_click: en_copy}
+        - {click: 'v', hint: 'ươ/ưa', long_click: en_paste}
+        - {click: 'b', hint: 'ô', long_click: '"'}
+        - {click: 'n', hint: 'ă', long_click: '!'}
+        - {click: 'm', hint: 'oă', long_click: '?'}
+
+        - {click: en_BackSpace, width: 15}
+  
+        - {click: en_Keyboard_symbols, long_click: en_Keyboard_number}
+        - {click: IME_switch, long_click: '<'}
+        - {click: en_liquid_keyboard_emoji, long_click: en_Menu}
+        - {click: ',', long_click: '<'}
+        - {click: space, width: 35, long_click: en_Menu}
+        - {click: '.', long_click: '/'}
+        - {click: Return, composing: Return1, width: 15}
+  
+"preset_keyboards/unilatin":
+    name: 預設40鍵
+    author: "scorpjke <scorpjke@gmail.com>"
+    ascii_mode: 0
+    width: 10
+    height: 44
+    lock: true
+    keys:
+        - {click: '1', long_click: '!'}
+        - {click: '2', long_click: '@', hint: '~'}
+        - {click: '3', long_click: '#'}
+        - {click: '4', long_click: '$'}
+        - {click: '5', long_click: '%'}
+        - {click: '6', long_click: '^'}
+        - {click: '7', long_click: '&'}
+        - {click: '8', long_click: '*'}
+        - {click: '9', long_click: '('}
+        - {click: '0', long_click: ')'}
+
+        - {click: 'q', long_click: '`'}
+        - {click: 'w', long_click: '-', hint: 'ᴀ'}
+        - {click: 'e', long_click: '+'}
+        - {click: 'r', long_click: '='}
+        - {click: 't', long_click: '|'}
+        - {click: 'y', long_click: '\'}
+        - {click: 'u', long_click: '['}
+        - {click: 'i', long_click: ']'}
+        - {click: 'o', long_click: '{'}
+        - {click: 'p', long_click: '}'}
+
+        - {width: 5}
+        - {click: 'a', long_click: en_select_all }
+        - {click: 's'}
+        - {click: 'd', hint: 'ɐ'}
+        - {click: 'f'}
+        - {click: 'g'}
+        - {click: 'h'}
+        - {click: 'j'}
+        - {click: 'k', long_click: '"'}
+        - {click: 'l', long_click: "'"}
+        - {width: 5}
+  
+        - {click: Shift_L, width: 15, label: '⇧'}
+        - {click: 'z', long_click: en_undo}
+        - {click: 'x', long_click: en_cut}
+        - {click: 'c', long_click: en_copy}
+        - {click: 'v', long_click: en_paste }
+        - {click: 'b', long_click: '"'}
+        - {click: 'n', long_click: '!'}
+        - {click: 'm', long_click: '?'}
+        # composing: Escape
+        - {click: en_BackSpace, width: 15}
+  
+        - {click: en_Keyboard_symbols, long_click: en_Keyboard_number, width: 15}
+        - {click: ',', long_click: ':'}
+        - {click: ';', long_click: '<', label: 'Ψ', width: 15}
+        - {click: space, width: 35, long_click: en_Menu}
+        - {click: '.', long_click: '/'}
+        - {click: Return, composing: Return1, width: 15}
+  
+
+"preset_keyboards/unicyrillicmobile":
+    name: UniCyrillic
+    author: "scorpjke <scorpjke@gmail.com>"
+    ascii_mode: 0
+    width: 9
+    height: 33
+    lock: true
+    keys:
+        - {click: 'й', long_click: 'ј'}
+        - {click: 'ц', long_click: 'џ'}
+        - {click: 'у', long_click: 'ў'}
+        - {click: 'к', long_click: 'қ', swipe_up: 'ќ', swipe_left: 'ҡ', hint: '↑ќ←ҡ'}
+        - {click: 'е', long_click: 'ё'}
+        - {click: 'н', long_click: 'ң', swipe_right: 'њ', hint: '→њ'}
+        - {click: 'г', long_click: 'ғ', swipe_right: 'ґ', swipe_up: 'ѓ', hint: '→ґ↑ѓ'}
+        - {click: 'ш', long_click: 'ѫ', swipe_left: 'ѭ', hint: '←ѭ'}
+        - {click: 'щ', long_click: 'ѯ'}
+        - {click: 'з', long_click: 'ꙁ'}
+        - {click: 'х', long_click: 'ҳ', swipe_up: 'һ', hint: '↑һ'}
+ 
+        - {click: 'ф', long_click: 'ѳ' }
+        - {click: 'ы', long_click: 'і', swipe_down: 'ӏ', hint: '↓ӏ'}
+        - {click: 'в', long_click: 'ѵ'}
+        - {click: 'а', long_click: 'ә', swipe_left: 'ꙗ', hint: '←ꙗ'}
+        - {click: 'п', long_click: 'ѱ'}
+        - {click: 'р'} 
+        - {click: 'о', long_click: 'ө', swipe_up: 'ѡ', hint: '↑ѡ'}
+        - {click: 'л', long_click: 'ӆ', swipe_right: 'љ', hint: '→љ'}
+        - {click: 'д', long_click: "ђ"}
+        - {click: 'ж', long_click: "җ"}
+        - {click: 'э', long_click: "є", swipe_left: 'ѥ', hint: '←ѥ'}
+  
+        - {click: Shift_L, width: 9, label: '⇧'}
+        - {click: 'я', long_click: 'ѧ', swipe_left: 'ѩ', hint: '←ѩ'}
+        - {click: 'ч', long_click: 'ҷ'}
+        - {click: 'с', long_click: 'ҫ'}
+        - {click: 'м'}
+        - {click: 'и', long_click: 'ї'}
+        - {click: 'т', long_click: 'ћ'}
+        - {click: 'ь', long_click: 'ъ', swipe_up: 'ѣ', hint: '↑ѣ'}
+        - {click: 'б', long_click: 'ұ'}
+        - {click: 'ю', long_click: 'ү'}
+        - {click: en_BackSpace, width: 9}
+  
+        - {click: en_Keyboard_symbols, long_click: en_Keyboard_number, width: 15}
+        - {click: ',', long_click: "'"}
+        - {click: ';', long_click: '<', label: 'Ψ', width: 15}
+        - {click: space, width: 35, long_click: en_Menu}
+        - {click: '.', long_click: '?'}
+        - {click: Return, composing: Return1, width: 15}
+  
+
+"preset_keyboards/symbols_scorp":
+    name: symbols_scorp
+    author: "scorpjke <scorpjke@gmail.com>"
+    ascii_mode: 1
+    width: 10
+    height: 44
+    keys:
+    - {click: '1'}
+    - {click: '2'}
+    - {click: '3'}
+    - {click: '4'}
+    - {click: '5'}
+    - {click: '6'}
+    - {click: '7'}
+    - {click: '8'}
+    - {click: '9'}
+    - {click: '0'}
+    - {click: '~',long_click: '`'}
+    - {click: '!'}
+    - {click: '@'}
+    - {click: '#'}
+    - {click: '$'}
+    - {click: '￥'}
+    - {click: '%'}
+    - {click: '^'}
+    - {click: '&'}
+    - {click: '*'}
+    - {click: '(', long_click: '{'}
+    - {click: ')', long_click: '}'}
+    - {click: '[', long_click: '【'}
+    - {click: ']', long_click: '】'}
+    - {click: '「', long_click: '『'}
+    - {click: '」', long_click: '』'}
+    - {click: '、', ascii: '\', long_click: '|'}
+    - {click: '/', long_click: '√'}
+    - {click: ':'}
+    - {click: ';'}
+    - {click: '+'}
+    - {click: '-', long_click: '_'}
+    - {click: '='}
+    - {click: '〈', long_click: '《', ascii: '<'}
+    - {click: '〉', long_click: '》', ascii: '>'}
+    - {click: '“', ascii: '"', long_click: '‘'}
+    - {click: '”', ascii: "'", long_click: '’'}
+    - {click: '，', ascii: ',', long_click: one_hand_switch_1}
+    - {click: '？', ascii: '?', long_click: one_hand_switch_3}
+    - {click: en_BackSpace}
+    - {click: en_Keyboard_default, long_click: Menu, width: 15}
+    - {click: en_Keyboard_number, long_click: Color_switch}
+    - {click: en_Keyboard_number, long_click: Theme_settings}
+    - {click: liquid_keyboard_switch, long_click: Delete}
+    - {click: space, width: 30}
+    - {click: '。', ascii: '.'}
+    - {click: Return, width: 15}

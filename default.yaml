@@ -4,14 +4,7 @@
 config_version: '0.40'
 
 schema_list:
-  - schema: luna_pinyin
-  - schema: luna_pinyin_simp
-  - schema: luna_pinyin_fluency
-  - schema: bopomofo
-  - schema: bopomofo_tw
-  - schema: cangjie5
-  - schema: stroke
-  - schema: terra_pinyin
+  - schema: vietquick
 
 switcher:
   caption: 〔方案選單〕

@@ -1,5 +1,4 @@
-# VietSu: type fast in Vietnamese
-
+# VQuick: type fast in Vietnamese
 
  - All words are typed with abbreviations called codes. They are usually 2-4 letters long.
  - Codes are formed according to specific clear rules so it's really intuitive and you almost never need to memorize them.
@@ -40,11 +39,11 @@ How to install on Windows
 
 <img src="media/yaml_folder.png" width="200" />
 
-- Download the [files](https://github.com/scorpjke/rime-vietnamese/archive/refs/heads/master.zip) from VietSu repository and copy them to the Rime folder that opened in the previous step (but if you had Rime installed before, be careful to not replace important files so read below `If you already had Rime installed before`).
+- Download the [files](https://github.com/scorpjke/rime-vietnamese/archive/refs/heads/master.zip) from VQuick repository and copy them to the Rime folder that opened in the previous step (but if you had Rime installed before, be careful to not replace important files so read below `If you already had Rime installed before`).
 
 - Right-click the icon 中 and choose 輸入法設定（S）. A settings window should open.
 
-- In that window tick VietSu (untick everything else, unless you want to type in some Chinese keyboards) and click the button 中.
+- In that window tick VQuick (untick everything else, unless you want to type in some Chinese keyboards) and click the button 中.
 
 How to install on Android
 ===
@@ -57,11 +56,11 @@ How to install on Android
 
 3. Open the File Explorer and make sure that `rime` folder appeared in the root directory.
 
-4. Download the [files](https://github.com/scorpjke/rime-vietnamese/archive/refs/heads/master.zip) from VietSu repository and copy them to that `rime` folder (if you already had Rime installed before, read below first!).
+4. Download the [files](https://github.com/scorpjke/rime-vietnamese/archive/refs/heads/master.zip) from VQuick repository and copy them to that `rime` folder (if you already had Rime installed before, read below first!).
 
 5. Shut down the app and reopen it.
 
-6. Open the app, press `Select schemas` and choose VietSu.
+6. Open the app, press `Select schemas` and choose VQuick.
 
 7. Press `Profile` -> `Sync user data`
 
@@ -80,7 +79,7 @@ If you already had Rime installed before (any platform)
 ---
 When copying files, it might ask you to replace some existing files.
 
-- if your folder already has `rime.lua`, don't replace it. Open it in a text editor and just add the contents of VietSu's `rime.lua` to the end of your file.
+- if your folder already has `rime.lua`, don't replace it. Open it in a text editor and just add the contents of VQuick's `rime.lua` to the end of your file.
 
 - As for the other files like `punctiation.yaml` and `key_bindings.yaml` - you can just skip them, no need to replace them.
 
@@ -89,7 +88,7 @@ If you already use other Rime layouts on Android.
 Identify which theme you use, you can see that in the settings. Most likely you use the default one called `trime` or perhaps another default one called `tongwenfeng`. Open (or create if it doesn't exist) file `your_theme_name_here.custom.yaml` and add the following:
 ```
 patch:
-  __include: ~trime.custom.keyboard.vietsu:/
+  __include: ~trime.custom.keyboard.scorp:/
 ```
 
 

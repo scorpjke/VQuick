@@ -1,6 +1,5 @@
-﻿
-capitalize_vietsu = require("capitalize_vietsu")
-capitalize_vietsu_filter = capitalize_vietsu.filter
-capitalize_vietsu_processor = capitalize_vietsu.processor
+﻿capitalize_vietquick = require("capitalize_vietquick")
+capitalize_vietquick_filter = capitalize_vietquick.filter
+capitalize_vietquick_processor = capitalize_vietquick.processor
 
-remove_final_space_vietsu = require("remove_final_space_vietsu")
+remove_final_space_vietquick = require("remove_final_space_vietquick")

@@ -1,0 +1,72 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: vietquick
+  name: "VQuick"
+  version: "2020.05.08"
+  author:
+    - scorpjke<scorpjke@gmail.com>
+  description: |
+    Sucheng-style keyboard for fast typing in Vietnamese
+
+engine:
+  processors:
+    - lua_processor@language_switch_scorpjke
+    - lua_processor@capitalize_vietquick_processor
+    - ascii_composer
+    - selector
+    - speller
+    - punctuator
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+  filters:
+#    - lua_filter@trad_tone_vietquick
+    - lua_filter@remove_final_space_vietquick
+    - lua_filter@capitalize_vietquick_filter
+
+
+menu:
+  alternative_select_labels: [　,　,　,　,　,　,　,　,　]
+  alternative_select_keys: ①②③④⑤⑥⑦⑧⑨
+#  page_size: 1
+
+speller:
+  alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+  delimiter: ';'
+  auto_select: true
+
+translator:
+  dictionary: vietquick
+  enable_user_dict: false
+  enable_sentence: true
+
+
+punctuator:
+  use_space: true
+  half_shape: &punct
+    ' ' : { commit: ' ' }
+  full_shape: *punct
+
+ascii_composer:
+#  good_old_caps_lock: true
+  switch_key:
+    Shift_L: noop
+    Shift_R: noop
+    Control_L: noop
+    Control_R: noop
+    Caps_Lock: noop
+    Eisu_toggle: noop
+
+editor:
+  bindings:
+    Return: confirm
+    space: noop
