@@ -5,7 +5,7 @@
  - Codes are formed according to specific clear rules so it's really intuitive and you almost never need to memorize them.
  - Works on all platforms (Windows, Android, Linux, iOS, Macbook)
 
-![PC](media/type_example_pc.png)
+<img src="media/type_example_pc.png" width="200" />
 <img src="media/example_type_mobile.jpg" width="200" />
 
 Some examples
@@ -38,7 +38,7 @@ How to install on Windows
 
 - Switch the language and then on the panel you should see an icon 中. Right-click it and choose 用戶文件夾（C）. A folder should open.
 
-![folder](media/yaml_folder.jpg)
+<img src="media/yaml_folder.png" width="200" />
 
 - Download the [files](https://github.com/scorpjke/rime-vietnamese/archive/refs/heads/master.zip) from VietSu repository and copy them to the Rime folder that opened in the previous step (but if you had Rime installed before, be careful to not replace important files so read below `If you already had Rime installed before`).
 
@@ -109,8 +109,9 @@ If you see a sequence of vowels that ends in **i/y/o/u**, then that last vowel i
 
 Each initial, middle and final is typed with one key. Here is the image of the keyboard:
 
-![mobile layout](media/layout_mobile.jpg)
-![PC layout](media/layout_pc.png)
+
+<img src="media/layout_mobile.jpg" width="300" />
+<img src="media/layout_pc.png" width="300" />
 
 Two-syllable words
 -----
