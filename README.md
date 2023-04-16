@@ -6,7 +6,7 @@
  - Works on all platforms (Windows, Android, Linux, iOS, Macbook)
 
 ![PC](media/type_example_pc.png)
-![mobile](media/example_type_mobile.jpg)
+<img src="media/example_type_mobile.jpg" width="200" />
 
 Some examples
 -----
@@ -109,8 +109,8 @@ If you see a sequence of vowels that ends in **i/y/o/u**, then that last vowel i
 
 Each initial, middle and final is typed with one key. Here is the image of the keyboard:
 
-![PC layout](media/layout_mobile.jpg)
-![mobile layout](media/layout_pc.jpg)
+![mobile layout](media/layout_mobile.jpg)
+![PC layout](media/layout_pc.png)
 
 Two-syllable words
 -----
