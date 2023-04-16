@@ -12,7 +12,6 @@ schema:
 
 engine:
   processors:
-    - lua_processor@language_switch_scorpjke
     - lua_processor@capitalize_vietquick_processor
     - ascii_composer
     - selector
