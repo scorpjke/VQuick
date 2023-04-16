@@ -1,36 +1,3 @@
-
-function dump(o)
-   if type(o) == 'table' then
-      local s = '{ '
-      for k,v in pairs(o) do
-         if type(k) ~= 'number' then k = '"'..k..'"' end
-         s = s .. '['..k..'] = ' .. dump(v) .. ','
-      end
-      return s .. '} '
-   else
-      return tostring(o)
-   end
-end
-
---[[
-local function filter(input)
-   for cand in input:iter() do
-      cand:get_genuine().comment = cand.comment .. dump(cand.entry)
-      yield(cand)
-   end
-   log.warning("this is a test mothafucka")
-end
-
-
-local function translator(input, seg, env)
-   local erased_space, _ = string.gsub(input, " $", "" )
-   yield(Candidate("date", seg.start, seg._end, "CYKA",  string.len(erased_space) ))
-   if erased_space ~= input then
-       
-   end
-end
-]]--
-
 local function trim(s)
    return s:gsub("^ +", ""):gsub(" +$", "")
 end
