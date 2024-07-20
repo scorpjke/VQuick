@@ -95,7 +95,7 @@ patch:
 
 How to know the codes
 ---------------------------------
-Firstly, let's deal with the terminology. The Vietnamese symbol consists of three parts: *initial, middle, final*. For example:
+Firstly, let's deal with the terminology. The Vietnamese syllable consists of three parts: *initial, middle, final*. For example:
 
 - **phòng** → initial: **ph**, middle: **o**, final: **ng**
 - **khỏe** → initial: **kh**, middle: **oe**, final: **---**
