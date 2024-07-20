@@ -164,7 +164,12 @@ So, there are two major ways to type one syllable words, let's study them in det
    - quần → `qf`
    - hãy → `hx`
 
-So the general instruction for typing 1-syllable words: if the word is really common, try the **FL** code. If it didn't show up, try **IMF** (the word in full without the tone) and hopefully the tone will be attached by default. Otherwise add the tone manually.
+If there are so many types of codes, how do I know which one to use?
+---
+
+It will require a little bit of memorization. Firstly, speaking of 1-letter codes, we only have around 30 of them and those are 30 extremely common words that you'll type all the time so you'll remember them fast. FT codes are very rare and they really were created as a last resort. There aren't many of them and by defualt you should never expect the FT code to work.
+
+Then the general instruction for typing 1-syllable words is simple: if the word is really common, try the **FL** code. If it didn't show up, try **IMF** (the word in full without the tone) and hopefully the tone will be attached by default. Otherwise add the tone manually.
 
 Important note for FL codes: if the word starts with a vowel, we don't search for that vowel on the keyboard but instead we just remove the diacritics. For example:
 
