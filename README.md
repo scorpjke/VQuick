@@ -208,9 +208,17 @@ The letter Q: "u" is considered to be a part of the initial so it's not included
 
 Capitalization
 ---
-1) `Tab` (on mobile it looks like `Shift`): press once to capitalize the 1st syllable of the word. Keep pressing to capitalize further syllables.
-2) `Ctrl` + `C`: all-caps of the current word only
-3) `Ctrl` + `A`: toggle CAPSLOCK. All words will be typed in CAPS until it's turned off.
+1) The wave method
+
+   Here's how it works. Imagine you've typed a 3-syllable word. Now you can capitalize any syllables you want by providing a pattern: `Tab` (meaning uppercase) and `/` (meaning lowercase). For example:
+   - `Tab`: Phòng thể dục
+   - `Tab` `Tab`: Phòng Thể dục
+   - `Tab` `Tab` `Tab`: Phòng Thể Dục
+   - `/` `Tab` `Tab`: phòng Thể Dục
+   - `/` `Tab`: phòng Thể dục
+  
+3) `Ctrl` + `C`: all-caps of the current word only
+4) `Ctrl` + `A`: toggle CAPSLOCK. All words will be typed in CAPS until it's turned off.
 
 General tips
 ----
