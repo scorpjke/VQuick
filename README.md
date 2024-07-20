@@ -124,39 +124,45 @@ If your word is not common enough, it might be of the form **IIMF** (initial ini
 
 One-syllable words
 -----
-There are two major ways to type them, let's study them in detail.
+Firstly, we're going to need to know the keys for the tones. It's a standard scheme used in most Vietnamese layouts:
+
+`r` = ả, `f` = à, `s` = á, `x` = ã, `j` = ạ, `0` = a
+
+So, there are two major ways to type one syllable words, let's study them in detail. 
+
 1) Full-code
    
    It means you type out everything in the syllable: initial, middle, final and tone. Since each of those are typed with 1 key, the maximum length of such a code is 4 keypresses. For example:
 
-- bạn → `banj`
-- khỏe → `kdr` (because **oe** is located on the same key as `d`)
-- tiếng → `tk9s` (**iê** is located on `k`)
-- tôi → `tbi0` (because the word has no tone, we type `0` at the end)
+   - bạn → `banj`
+   - khỏe → `kdr` (because **oe** is located on the same key as `d`)
+   - tiếng → `tk9s` (**iê** is located on `k`)
+   - tôi → `tbi0` (because the word has no tone, we type `0` at the end)
+   - ấy → `0sys` (if the syllable has no initial and it starts with a vowel with diacritics then the code starts from `0`)
 
-2) Short code
+3) Short code
    
    Almost all common one-syllable words have a short code so you'll almost never need to use the full code. We have:
 
-One-letter codes:
-- bạn → `b`
-- không → `k`
-- một → `m`
-
-FL (first last) codes:
-- tốt → `tt`
-- phòng → `p9`
-- giờ → `zq`
-
-IMF (initial middle final) codes. So they're basically the same as full codes except you don't type the tone.
-- tiếng → `tk9`
-- tuần → `txn`
-- tối → `tbi`
-
-FT (first tone) codes:
-- bởi → `br`
-- quần → `qf`
-- hãy → `hx`
+   One-letter codes:
+   - bạn → `b`
+   - không → `k`
+   - một → `m`
+   
+   FL (first last) codes:
+   - tốt → `tt`
+   - phòng → `p9`
+   - giờ → `zq`
+   
+   IMF (initial middle final) codes. So they're basically the same as full codes except you don't type the tone.
+   - tiếng → `tk9`
+   - tuần → `txn`
+   - tối → `tbi`
+   
+   FT (first tone) codes:
+   - bởi → `br`
+   - quần → `qf`
+   - hãy → `hx`
 
 So the general instruction for typing 1-syllable words: if the word is really common, try the **FL** code. If it didn't show up, try **IMF** (the word in full without the tone) and hopefully the tone will be attached by default. Otherwise add the tone manually.
 
