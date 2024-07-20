@@ -23,6 +23,7 @@ How to install on Windows
 
 1. Install Rime from [official github rep](https://github.com/rime/weasel/releases/download/0.14.3/weasel-0.14.3.0-installer.exe) or [official website](https://rime.im/download/). The software is in Chinese but don't worry.
 
+<!---
 2. The version of Rime for Windows is unfortunately outdated so we need to update it.
 
 - Download [zip with the latest updates](https://github.com/rime/librime/releases/download/1.8.5/rime-08dd95f-Windows.7z) from the official RIME repository.
@@ -31,9 +32,9 @@ How to install on Windows
 
 - Open your Weasel directory, for example `C:\Program Files (x86)\Rime\weasel-0.14.3` and replace `rime.dll` with the new one.
 
-- Restart your PC
+- Restart your PC --->
 
-3. Installing the keyboard files
+2. Installing the keyboard files
 
 - Switch the language and then on the panel you should see an icon `中`. Right-click it and choose `用戶文件夾（C）`. A folder should open.
 
