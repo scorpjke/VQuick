@@ -35,15 +35,15 @@ How to install on Windows
 
 3. Installing the keyboard files
 
-- Switch the language and then on the panel you should see an icon `中`. Right-click it and choose 用戶文件夾（C）. A folder should open.
+- Switch the language and then on the panel you should see an icon `中`. Right-click it and choose `用戶文件夾（C）`. A folder should open.
 
 <img src="media/yaml_folder.png" width="200" />
 
 - Download the [files](https://github.com/scorpjke/rime-vietnamese/archive/refs/heads/master.zip) from VQuick repository and copy them to the Rime folder that opened in the previous step (but if you had Rime installed before, be careful to not replace important files so read below **if you already had Rime installed before**).
 
-- Right-click the icon 中 and choose 輸入法設定（S）. A settings window should open.
+- Right-click the icon `中` and choose `輸入法設定（S）`. A settings window should open.
 
-- In that window tick VQuick (untick everything else, unless you want to type in some Chinese keyboards) and click the button 中.
+- In that window tick `VQuick` (untick everything else, unless you want to type in some Chinese keyboards) and click the button `中`.
 
 How to install on Android
 ===
