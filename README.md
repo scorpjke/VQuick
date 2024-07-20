@@ -221,6 +221,12 @@ Capitalization
 3) `Ctrl` + `C`: all-caps of the current word only
 4) `Ctrl` + `A`: toggle CAPSLOCK. All words will be typed in CAPS until it's turned off.
 
+
+Reduplication
+---
+
+Let's say you want to type the word `luôn luôn`. The best way to do it is to type `luôn` alone and then press `~` (without shift) to repeat it!
+
 General tips
 ----
 1. Don't choose words from the list. It isn't necessary and it slows down your typing. Just type the code and if you see that your word shows up as #1 then just press `Space` or `,` or any other punctuation mark.
