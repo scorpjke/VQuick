@@ -9,12 +9,12 @@
 
 Some examples
 -----
-- không → **k**
-- biết → **bt**
-- sân bay → **snby**
-- kết quả → **ktqa**
-- ký túc xá → **ktx**
-- cửa hàng dược phẩm → **chdp**
+- không → `k`
+- biết → `bt`
+- sân bay → `snby`
+- kết quả → `ktqa`
+- ký túc xá → `ktx`
+- cửa hàng dược phẩm → `chdp`
 
 All the specific rules on how to figure out the codes are listed below.
 
@@ -29,17 +29,17 @@ How to install on Windows
 
 - Find the file `dist/lib/rime.dll` and copy it.
 
-- Open your Weasel directory, for example `C:\Program Files (x86)\Rime\weasel-0.14.3` and replace rime.dll with the new one.
+- Open your Weasel directory, for example `C:\Program Files (x86)\Rime\weasel-0.14.3` and replace `rime.dll` with the new one.
 
 - Restart your PC
 
 3. Installing the keyboard files
 
-- Switch the language and then on the panel you should see an icon 中. Right-click it and choose 用戶文件夾（C）. A folder should open.
+- Switch the language and then on the panel you should see an icon `中`. Right-click it and choose 用戶文件夾（C）. A folder should open.
 
 <img src="media/yaml_folder.png" width="200" />
 
-- Download the [files](https://github.com/scorpjke/rime-vietnamese/archive/refs/heads/master.zip) from VQuick repository and copy them to the Rime folder that opened in the previous step (but if you had Rime installed before, be careful to not replace important files so read below `If you already had Rime installed before`).
+- Download the [files](https://github.com/scorpjke/rime-vietnamese/archive/refs/heads/master.zip) from VQuick repository and copy them to the Rime folder that opened in the previous step (but if you had Rime installed before, be careful to not replace important files so read below **if you already had Rime installed before**).
 
 - Right-click the icon 中 and choose 輸入法設定（S）. A settings window should open.
 
@@ -116,8 +116,8 @@ Two-syllable words
 -----
 
 That's the easiest and the most powerful one since we can type many thousands of words with it easily. In order to type a two-syllable word, it's almost always going to be **FLFL** (first last fist last). For example:
-- Việt Nam → **vtnm**
-- sinh viên → **s3vn**
+- Việt Nam → `vtnm`
+- sinh viên → `s3vn`
 
 If your word is not common enough, it might be of the form **IIMF** (initial initial middle final) or **IMFI** (initial middle final initial).
 
@@ -126,54 +126,56 @@ One-syllable words
 -----
 There are two major ways to type them, let's study them in detail.
 1) Full-code
-It means you type out everything in the syllable: initial, middle, final and tone. Since each of those are typed with 1 key, the maximum length of such a code is 4 keypresses. For example:
+   
+   It means you type out everything in the syllable: initial, middle, final and tone. Since each of those are typed with 1 key, the maximum length of such a code is 4 keypresses. For example:
 
-- bạn → **banj**
-- khỏe → **kdr** (because `oe` is located on the same key as `d`)
-- tiếng → **tk9s** (`iê` is located on `k`)
-- tôi → **tbi0** (because the word has no tone, we type `0` at the end)
+- bạn → `banj`
+- khỏe → `kdr` (because **oe** is located on the same key as `d`)
+- tiếng → `tk9s` (**iê** is located on `k`)
+- tôi → `tbi0` (because the word has no tone, we type `0` at the end)
 
 2) Short code
-Almost all common one-syllable words have a short code so you'll almost never need to use the full code. We have:
+   
+   Almost all common one-syllable words have a short code so you'll almost never need to use the full code. We have:
 
 One-letter codes:
-- bạn → **b**
-- không → **k**
-- một → **m**
+- bạn → `b`
+- không → `k`
+- một → `m`
 
 FL (first last) codes:
-- tốt → **tt**
-- phòng → **p9**
-- giờ → **zq**
+- tốt → `tt`
+- phòng → `p9`
+- giờ → `zq`
 
 IMF (initial middle final) codes. So they're basically the same as full codes except you don't type the tone.
-- tiếng → **tk9**
-- tuần → **txn**
-- tối → **tbi**
+- tiếng → `tk9`
+- tuần → `txn`
+- tối → `tbi`
 
 FT (first tone) codes:
-- bởi → **br**
-- quần → **qf**
-- hãy → **hx**
+- bởi → `br`
+- quần → `qf`
+- hãy → `hx`
 
 So the general instruction for typing 1-syllable words: if the word is really common, try the **FL** code. If it didn't show up, try **IMF** (the word in full without the tone) and hopefully the tone will be attached by default. Otherwise add the tone manually.
 
 Important note for FL codes: if the word starts with a vowel, we don't search for that vowel on the keyboard but instead we just remove the diacritics. For example:
 
-- uống → **u9** (not k9)
-- âm → **am** (not sm)
+- uống → `u9` (not k9)
+- âm → `am` (not sm)
 
 
 Three-syllable words
 -----
 Firstly, any three-syllable word can be typed with **FLFLFL**. For example:
-- không bao giờ → **k9bozq**
+- không bao giờ → `k9bozq`
 
 But common words additionally have shorter codes.
 If the word is really common, try **FFF**. For example:
-- không bao giờ → **kbz**
-- phòng thể dục → **p1d**
-- người phụ nữ → **9pn**
+- không bao giờ → `kbz`
+- phòng thể dục → `p1d`
+- người phụ nữ → `9pn`
 
 If your word doesn't show up, you can try **FFFL** or **FLFF**.
 
@@ -181,17 +183,19 @@ Words with 4 or more syllables
 -----
 They can be typed by using their first letters only. For example:
 
-- nhân viên cứu hỏa → **3vch**
-- chúc mừng sinh nhật → **wms3**
+- nhân viên cứu hỏa → `3vch`
+- chúc mừng sinh nhật → `wms3`
 
 Important note regarding the letter Q: "u" is considered to be a part of the initial so it's not included in the middle. For example:
 
-- quận → **qsn** (not qxn)
-- quyền → **qkn** (not qjn; the formula here is considered to be **qu** + **yên/iên**)
+- quận → `qsn` (not qxn)
+- quyền → `qkn` (not qjn; the formula here is considered to be **qu** + **yên/iên**)
 
 Capitalization
-----
-On the PC, press `Tab` in order to capitalize the word (on mobile it looks like `Shift`). Press it twice to capitalize every syllable. Press three times to get it in all-caps.
+---
+1) `Tab` (on mobile it looks like `Shift`): press once to capitalize the 1st syllable of the word. Keep pressing to capitalize further syllables.
+2) `Ctrl` + `C`: all-caps of the current word only
+3) `Ctrl` + `A`: toggle CAPSLOCK. All words will be typed in CAPS until it's turned off.
 
 General tips
 ----
@@ -200,4 +204,4 @@ General tips
 Tips for PC
 ---
 - Press `Esc` erase your current input.
-- Press `Ctrl+Enter` to commit raw input, i.e. when you want the input to be treated literally, not as a code.
+- Press `Ctrl` + `Enter` to commit raw input, i.e. when you want the input to be treated literally, not as a code.
