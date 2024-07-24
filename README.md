@@ -220,6 +220,7 @@ Capitalization
   
 3) `Ctrl` + `C`: all-caps of the current word only
 4) `Ctrl` + `A`: toggle CAPSLOCK. All words will be typed in CAPS until it's turned off.
+5) `Ctrl` + `D`: toggle the hyphens. For example, if the original word shows up as *mát-xa*, it will turn into *mát xa* and vice versa.
 
 
 Reduplication
